@@ -1,0 +1,13 @@
+# Ignorar entorno virtual
+venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Datos generados
+data/
+
+# Logs
+*.log
