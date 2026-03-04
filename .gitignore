@@ -1,13 +1,31 @@
-# Ignorar entorno virtual
-venv/
-
-# Cachés de Python
+# Python
 __pycache__/
 *.pyc
 *.pyo
-
-# Datos generados
-data/
-
-# Logs
+*.pyd
 *.log
+venv/
+
+# Data
+data/
+*.parquet
+*.delta
+
+# Spark
+metastore_db/
+spark-warehouse/
+
+# Airflow (futuro)
+airflow/
+logs/
+
+# Environment files
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
